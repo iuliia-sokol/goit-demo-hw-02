@@ -1,0 +1,57 @@
+/* Colors palette:
+
+TEXT: 
+txt-logo-black: #000000 
+txt-logo-white:  #FFFFFF
+txt-accent-blue: #2196F3
+
+txt-hero-header: #FFFFFF
+
+txt-headers: #212121
+txt-paragraphs:  #757575
+
+txt-btn-unactive: #212121
+txt-btn-active: #FFFFFF
+
+txt-header-link: #757575
+txt-adress-link: #FFFFFF
+txt-adress-link-transparent: rgba(255, 255, 255, 0.6);
+
+ELEMENTS:
+background-header: #FFFFFF
+background-footer: #2F303A
+background-main: ##F5F5F5
+background-staff: #F5F4FA
+
+color-divider-line: #ECECEC
+color-gallery-item-border: #EEEEEE
+
+background-btn-unactive: #F5F4FA
+background-btn-active: #2196F3
+ */
+
+:root {
+  --txt-logo-black: #000000;
+  --txt-logo-white: #ffffff;
+  --txt-accent-blue: #2196f3;
+  --txt-hero-header: #ffffff;
+  --txt-headers: #212121;
+  --txt-paragraphs: #757575;
+  --txt-btn-unactive: #212121;
+  --txt-btn-active: #ffffff;
+  --txt-header-link: #757575;
+  --txt-adress-link: #ffffff;
+  --txt-adress-link-transparent: rgba(255, 255, 255, 0.6);
+  --background-header: #ffffff;
+  --background-footer: #2f303a;
+  --background-main: ##f5f5f5;
+  --background-staff: #f5f4fa;
+  --color-divider-line: #ececec;
+  --color-gallery-item-border: #eeeeee;
+  --background-btn-unactive: #f5f4fa;
+  --background-btn-active: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
