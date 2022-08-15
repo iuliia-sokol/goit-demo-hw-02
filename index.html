@@ -10,58 +10,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="body">
     <!-- Header-->
-    <header>
+    <header class="header">
       <nav>
         <!--Logo-->
-        <a href="./index.html">WebStudio</a>
+        <a href="./index.html" class="links-general header-logo-text"><span class="logo-text-accent">Web</span>Studio</a>
         <!--Browser-->
-        <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+        <ul class="content-list-general">
+          <li><a href="./index.html" class="links-general links-selection header-nav-link">Студія</a></li>
+          <li><a href="./portfolio.html" class="links-general links-selection header-nav-link">Портфоліо</a></li>
+          <li><a href="#" class="links-general links-selection header-nav-link">Контакти</a></li>
         </ul>
       </nav>
       <!--Contact links-->
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:++380961111111" class="contacts-link">+38 096 111 11 11</a></li>
+      <ul class="content-list-general">
+        <li><a href="mailto:info@devstudio.com" class="links-general links-selection header-adress-link">info@devstudio.com</a></li>
+        <li><a href="tel:++380961111111" class="links-general links-selection header-adress-link">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <!-- Main content-->
-    <main>
+    <main class="main-content">
       <!--Hero section-->
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <section class="hero">
+        <div class="hero-content-wrapper">
+          <h1 class="hero-header">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="btn-general hero-btn">Замовити послугу</button>
+        </div>
       </section>
       <!--Priorities-->
-      <section>
-        <h2 hidden>Пріорітети компанії</h2>
-        <ul>
-          <li>
+      <section class="priorities">
+        <h2 hidden class="section-header">Пріорітети компанії</h2>
+        <ul class="content-list-general priorities-list">
+          <li class="priorities-list-item">
             <h3>Увага до деталей</h3>
             <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
           </li>
-          <li>
+          <li class="priorities-list-item">
             <h3>Пунктуальність</h3>
             <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
           </li>
-          <li>
+          <li class="priorities-list-item">
             <h3>Планування</h3>
             <p>Так само консультація з широким активом значною мірою зумовлює.</p>
           </li>
-          <li>
+          <li class="priorities-list-item">
             <h3>Сучасні технології</h3>
             <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
           </li>
         </ul>
       </section>
       <!--Projects-->
-      <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
+      <section class="projects">
+        <h2 class="section-header">Чим ми займаємося</h2>
+        <ul class="content-list-general">
           <li>
             <img src="./images/box1.jpg" alt="Людина пише програмний код" width="370" />
           </li>
@@ -74,25 +76,25 @@
         </ul>
       </section>
       <!--Staff-->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
+      <section class="staff">
+        <h2 class="section-header">Наша команда</h2>
+        <ul class="content-list-general staff-list">
+          <li class="staff-list-item">
             <img src="./images/igor_demyanenko.jpg" alt="Фото Ігоря Дем'яненка" width="270" />
             <h3>Ігор Дем'яненко</h3>
             <p>Product Designer</p>
           </li>
-          <li>
+          <li class="staff-list-item">
             <img src="./images/olga_repina.jpg" alt="Фото Ольги Рєпіної" width="270" />
             <h3>Ольга Рєпіна</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="staff-list-item">
             <img src="./images/mykola_tarasov.jpg" alt="Фото Миколи Тарасова" width="270" />
             <h3>Микола Тарасов</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="staff-list-item">
             <img src="./images/myhailo_yermakov.jpg" alt="Фото Михайла Єрмакова" width="270" />
             <h3>Михайло Єрмаков</h3>
             <p>UI Designer</p>
@@ -101,17 +103,23 @@
       </section>
     </main>
     <!--Footer-->
-    <footer>
+    <footer class="footer">
       <!--Logo-->
-      <a href="./index.html">WebStudio</a>
+      <a href="./index.html" class="links-general footer-logo-text"><span class="logo-text-accent">Web</span>Studio</a>
       <!--Footer info-->
       <address>
-        <ul>
+        <ul class="content-list-general footer-content-list">
           <li>
-            <a href="https://goo.gl/maps/vt1rgCMrE2ZLCeFa9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a>
+            <a
+              href="https://goo.gl/maps/vt1rgCMrE2ZLCeFa9"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              class="links-general links-selection footer-adress-link"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:++380961111111" class="contacts-link">+38 096 111 11 11</a></li>
+          <li><a href="mailto:info@devstudio.com" class="links-general links-selection footer-contacts-link">info@devstudio.com</a></li>
+          <li><a href="tel:++380961111111" class="links-general links-selection footer-contacts-link">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
